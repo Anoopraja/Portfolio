@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <section id="home" className="relative top-10 md:mt-39 min-h-screen flex flex-col space-y-8 justify-center items-center px-16">
+    <section id="home" className="relative top-10 min-h-screen flex flex-col space-y-8 justify-center items-center px-16 sm:px-2 sm:pt-20 md:max-w-fit">
       <h1 className="text-5xl font-bold md:text-6xl">
         Hi, I'm <span className="text-blue-600">Anoop lofi ❤️</span>
       </h1>
@@ -9,7 +9,7 @@ const Home = () => {
         Frontend Developer | Python Programmer | Engineering Student
       </h2>
 
-      <p className="mt-6 max-w-auto text-lg  text-gray-500 leading-8">
+      <p className="mt-6 max-w-auto text-lg  text-gray-500 leading-8 text-center sm:max-w-full">
         I'm a passionate Computer Science student who enjoys building modern,
         responsive, and user-friendly web applications. I work with React,
         JavaScript, Tailwind CSS, and Python to turn ideas into real projects.
@@ -18,7 +18,7 @@ const Home = () => {
         create software that is both useful and visually appealing.
       </p>
 
-      <div className="mt-8 flex gap-4">
+      <div className="mt-8 flex gap-4 sm:flex-row flex-col">
         <a
           href="#projects"
           className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
