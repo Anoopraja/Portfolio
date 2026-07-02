@@ -2,9 +2,10 @@ import { useState } from 'react'
 import Navbar from './assets/components/Navbar'
 import Footer from './assets/components/Footer'
 import About from './assets/components/NavElement/About'
-import Skills from './assets/components/NavElement/Skills'
-import Projects from './assets/components/NavElement/Projects'
+import Skills from './assets/components/NavElement/skills'
+import Project from './assets/components/NavElement/Project'
 import Contact from './assets/components/NavElement/Contact'
+import Home from './assets/components/NavElement/Home'
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
   return (
     <>
       <Navbar />
+      <Home />
       <About />
-      <Projects />
+      <Project />
       <Skills />
       <Contact />
       <Footer />

@@ -11,7 +11,7 @@ const About = () => {
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
               {/* Replace the src below with the actual path to your profile picture */}
               <img 
-                src="/your-profile-pic.jpg" 
+                src="https://avatars.githubusercontent.com/u/179342959?s=400&u=dc5ab68c63d901cd21ada3ebb7eab95cdc1f30b9&v=4" 
                 alt="Anoop Kumar" 
                 className="object-cover w-full h-full"
               />
