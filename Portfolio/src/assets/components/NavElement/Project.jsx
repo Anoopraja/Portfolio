@@ -43,7 +43,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="h-auto bg-[#F9FAFC] text-black py-24 px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 overflow-hidden"
+      className="h-auto bg-[#F9FAFC] text-black pt-14 pb-5 px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 overflow-hidden"
     >
         {projects.map((project, index) => (
           <div key={index} className="mb-8 border-1 gap-y-14 rounded-lg p-4 bg-blue-80 shadow-lg hover:scale-105 transition-transform duration-300">

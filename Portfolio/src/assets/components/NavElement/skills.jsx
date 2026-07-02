@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaGitAlt, FaGithub } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaGitAlt, FaGithub, FaPhotoVideo, FaSketch } from "react-icons/fa";
 import { SiTailwindcss, SiVite } from "react-icons/si";
 
 const skills = [
@@ -11,11 +11,14 @@ const skills = [
 //   { name: "Git", icon: <FaGitAlt /> },
   { name: "GitHub", icon: <FaGithub /> },
   { name: "Vite", icon: <SiVite /> },
+  { name: "Photography", icon: <FaPhotoVideo /> },
+  { name: "Sketching", icon: <FaSketch /> },
 ];
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-20 bg-gray-50 text-white">
+    <section id="skills" className="py-0 pb-30 bg-gray-50 text-white">
+        <h1 className="text-4xl font-bold text-center mb-12">Skills</h1>
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-12">
           Skills
