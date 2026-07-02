@@ -1,7 +1,7 @@
 const Home = () => {
   return (
-    <section id="home" className="relative top-10 min-h-screen flex flex-col space-y-8 justify-center items-center px-16">
-      <h1 className="text-5xl font-bold">
+    <section id="home" className="relative top-10 md:top-30 min-h-screen flex flex-col space-y-8 justify-center items-center px-16">
+      <h1 className="text-5xl font-bold md:text-6xl">
         Hi, I'm <span className="text-blue-600">Anoop lofi ❤️</span>
       </h1>
 
