@@ -3,12 +3,12 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white pt-12 pb-8 mt-auto">
+    <footer className="bg-gray-50 text-black opacity-50 pt-12 pb-8 mt-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center gap-6">
         
         {/* Profile Info */}
         <div>
-          <h3 className="text-3xl font-bold mb-2">Anoop Kumar</h3>
+          <h3 className="text-3xl font-bold mb-2">Anoop lofi</h3>
           <p className="text-gray-400 text-sm sm:text-base">
             React Developer &bull; PostgreSQL &bull; Sketch Artist &bull; Photography
           </p>

@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-sm shadow-md">
+    <nav className="sticky top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-sm shadow-md">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 h-16">
 
         {/* Logo */}
@@ -21,7 +21,7 @@ const Navbar = () => {
           href="#home"
           className="text-2xl font-bold text-blue-600 hover:text-black transition duration-300"
         >
-            <img src="public/logo2.svg" alt="Logo" className="h-10" />
+            <img src="/logo.png" alt="Logo" className="h-10" />
         </a>
 
         {/* Desktop Menu */}
