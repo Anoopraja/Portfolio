@@ -21,7 +21,7 @@ const Navbar = () => {
           href="#home"
           className="text-2xl font-bold text-blue-600 hover:text-black transition duration-300"
         >
-            <img src="public/logo2.svg" alt="Logo" className="h-10" />
+            <img src="/logo.png" alt="Logo" className="h-10" />
         </a>
 
         {/* Desktop Menu */}
